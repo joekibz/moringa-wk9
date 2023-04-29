@@ -41,3 +41,17 @@ correctly.</p>
 "transaction_time": "2023-04-19 12:00:00"<br>
 }</p>
 
+<b><i>Steps to setup the pipeline</b></i>
+
+1- Goto https://confluent.cloud/ and setup a kafka cluster and topic<br>
+2- Get the connection details for your cluster instance<br>
+3- In the attached .py file find the code section with below entries. Update the below connection details to reflect the connection details generated for your own confluence cluster instance.<br>
+
+<i>bootstrap_servers = '#YOUR_URL#.confluent.cloud:9092'
+<br>security_protocol = 'SASL_SSL'
+<br>sasl_mechanism = 'PLAIN'
+<br>sasl_plain_username = '#YOUR_USERNAME#'
+<br>sasl_plain_password = '#YOUR_PASSWORD#'
+<br>topic = 'my_pipeline'</i>
+
+4- Run the .py file to start the streaming pipeline
