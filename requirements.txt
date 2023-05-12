@@ -1,6 +1,6 @@
 praw
 datetime
-praw.models
+praw
 pandas
 numpy
 matplotlib.pyplot
