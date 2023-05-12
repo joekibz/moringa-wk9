@@ -1,0 +1,10 @@
+praw
+datetime
+praw.models
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+textblob
+wordcloud
+streamlit
