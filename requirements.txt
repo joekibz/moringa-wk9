@@ -3,7 +3,7 @@ datetime
 praw
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 textblob
 wordcloud
