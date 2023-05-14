@@ -100,3 +100,10 @@ labels and instructions<br>
 ● Python script to collect and process real-time posts from Reddit API.<br>
 ● Interactive data visualization dashboard created using Streamlit.<br>
 ● Deployment of the dashboard to a cloud-based platform.<br>
+
+<h4><i>Steps to access the dashboard</i></h4>
+The application code is in file - <b>streamlit_app.py</b><br>
+The libraries that need to be imported to run the dashboard are in file - <b>requirements.txt</b><br>
+The dashboard is accessible at URL - <b>https://joekibz-moringa-wk9-streamlit-app-sywmbo.streamlit.app/</b>
+
+
