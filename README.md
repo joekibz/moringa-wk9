@@ -55,3 +55,48 @@ correctly.</p>
 <br>topic = 'my_pipeline'</i>
 
 4- Run the .py file to start the streaming pipeline
+
+========================================================================================
+<h3>Thursday 27-April Project Brief: Visualizing streaming data with Streamlit </h3>
+
+![streamlit](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/06/39595st.jpeg)
+
+<h4>Introduction</h4>
+
+<p>In this project, you will create a real-time data visualization dashboard using Streamlit to analyze
+streaming data from Reddit to identify fraud in telecommunications. The project will involve
+connecting to Reddit's API, collecting real-time posts, processing the posts to extract useful
+information, and visualizing the data using Streamlit.</p>
+
+<h4>Problem Statement</h4>
+<p>Fraud in telecommunications is a significant problem that costs the industry billions of dollars
+annually. Fraudsters use various techniques to exploit telecom infrastructure weaknesses,
+including hacking into phone systems, stealing identities, and exploiting vulnerabilities in billing
+systems. The challenge for telecom companies is to detect and prevent fraud in real-time before
+it causes significant financial damage.</p>
+
+<p>Your task is to develop a real-time data visualization dashboard that monitors Reddit for
+mentions of telecoms fraud and other related keywords, such as "telecoms scam", "phone
+fraud", "billing fraud", and "identity theft". You will extract useful information from the posts, such
+as the post text, user name, subreddit, and date/time, and use this information to analyze the
+data for patterns and trends related to telecom fraud.</p>
+
+<h4>Project Requirements</h4>
+● Connect to Reddit's API and collect real-time posts related to telecom fraud and other
+related keywords.<br>
+● Process the posts to extract useful information, including the post text, user name,
+subreddit, and date/time.<br>
+● Analyze the data to identify patterns and trends related to telecom fraud and other
+related keywords.<br>
+● Use Streamlit to create an interactive data visualization dashboard that displays
+real-time information about telecom fraud and other related keywords.<br>
+● The dashboard should include at least one chart or graph that displays the data
+meaningfully, e.g., a bar chart showing the number of fraud mentions by subreddit or a
+line chart showing the frequency of fraud mentions over time.<br>
+● The dashboard should be easy to use and visually appealing, with clear and concise
+labels and instructions<br>
+
+<h4>Deliverables</h4>
+● Python script to collect and process real-time posts from Reddit API.<br>
+● Interactive data visualization dashboard created using Streamlit.<br>
+● Deployment of the dashboard to a cloud-based platform.<br>
